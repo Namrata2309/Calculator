@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1% 1% 0% 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    gap: 1rem;
+    /* flex-direction: column; */
+}
+#inputBox{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-align: center;
+}
+.displayBox{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+#equalTo{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#ACbtn{
+    color: aqua;
+    background-color: black;
+}
+#DEbtn{
+    color: aqua;
+    background-color: black;
+}
+#dotbtn{
+    color: aqua;
+    background-color: black;
+}
+#multiply{
+    color: aqua;
+    background-color: black;
+}
+#minus{
+    color: aqua;
+    background-color: black;
+}
+#plus{
+    color: aqua;
+    background-color: black;
+}
+#equalTo{
+    color: aqua;
+    background-color: black;
+}
+#slashbtn{
+    color: aqua;
+    background-color: black;
+}
